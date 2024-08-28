@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="calc(); return false;">
+
+        <input class="input1"  placeholder="Enter first number" >
+        <input class="input2"  placeholder="Enter second number" >
+         <input class="data_list" list="operation">
+         <datalist id="operation">
+           <option>addition</option>
+           <option>subtraction</option>
+           <option>multply </option>
+           <option>divition</option>
+         </datalist>
+         <button onclick="calc()">calculate</button>
+    </form>
+    <h2 ></h2>
+
+   
+</body>
+<script src="./index.js"></script>
+</html>
